@@ -33,7 +33,6 @@ jobs:
           # Test deps (recommended source of truth)
           if [ -f __tests__/requirements.txt ]; then pip install -r __tests__/requirements.txt; fi
           pip install pytest
-          ls __tests__/
 
       - name: Run tests
         env:

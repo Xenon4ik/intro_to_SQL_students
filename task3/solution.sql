@@ -1,4 +1,4 @@
-ALTER TABEL server_logs 
+ALTER TABLE server_logs
 ADD COLUMN Session_Dur REAL;
 
 UPDATE server_logs
